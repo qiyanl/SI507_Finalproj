@@ -30,7 +30,7 @@ then a database is created and contains two tables, one is "Cities" and the othe
 This project requires YELP API to fetch restaurants related data. 
 
 Users could apply API key from:https://www.yelp.com/fusion. I store API key in the secrets pyhton file and import 
-the secrets python file in the database_prep.py as a module to create the database for this project.
+the secrets.py in the database_prep.py to create the database for this project.
 
 
 **Command Instructions**
