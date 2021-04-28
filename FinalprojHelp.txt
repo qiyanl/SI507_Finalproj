@@ -1,0 +1,36 @@
+Command Instructions:
+This program contains two types of command as shown below.
+
+1. Find [category|name|none] restaurants in [state|city|none] price|rating top|bottom <integer>
+
+     -Return a pretty table contains parameters specified in the command
+      e.g: Find [category=Asian Fusion] restaurants in[city=New York] rating top 5   
+
+Parameters:
+
+- [category|name|none], default=None
+    - A category or a name within which to limit the results.
+- [state|city|none], default=None
+    - A state or city within which to limit the results.
+- [price|rating], default=Rating
+    - Whether to sort the result by rating or price
+- [top|bottom], default=top
+    - List the results in descending(top) or ascending(bottom) order.
+- <integer>,default=10
+    - List <limit> matches.
+
+2. [category|name|none] restaurants in [state|city|none] [price|rating] distribution
+
+     -Return a pie chart contains parameters specified in the command
+      e.g: [category=chinese] restaurants in[state=NY] rating distribution
+
+Parameters:
+
+- [category=<Category>|name|none], default=none:
+    - A category or name for restaurants within which to limit the results.
+- [city|state|none], default=none:
+    - A city or a state within which to limit the results.
+-[ratings|price], default=ratings:
+    - Whether to sort by rating or price.
+
+
