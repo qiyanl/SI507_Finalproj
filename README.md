@@ -2,7 +2,7 @@ README
 ===========================
 This is W21 SI507 Final project. The purpose of this project is to get information about restaurants in different cities or state based on category or restaurants' name in the US. Yelp has web API and restaurant related data can be retrieved from API, while the table of cities can be fetched via web scraping.
 
-To run the program, users need to download the **Final_proj.db**, **FinalprojHelp.txt** and **final_project.py** and put them in a same folder.
+To run the program, users need to download the **Final_proj.db**, **FinalprojHelp.txt** and **final_project.py** and put them in a same folder. The main program file to run is **final_project.py**.
 
 ****
 	
